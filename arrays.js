@@ -18,6 +18,7 @@ function accessElementInArray(array, index){
 function destructivelyRemoveElementFromBeginningOfArray(array){
   return array.shift(), array
 }
+<<<<<<< HEAD
 function removeElementFromBeginningOfArray(array){
   return array.slice(1)
 }
@@ -27,3 +28,5 @@ function destructivelyRemoveElementFromEndOfArray(array){
 function removeElementFromEndOfArray(array){
   return array.slice(0, array.length -1)
 }
+=======
+>>>>>>> b7cf71d8a0a8df1ac34fbc07a48d1e47ee4b93ca
